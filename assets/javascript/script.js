@@ -43,9 +43,9 @@ $(document).ready(function() {
   	while (a.isBefore(b)) {
 		firstTime = a.add(trainFreq, 'minutes').format('HH:mm');
 	}
-	console.log(firstTime);
+
 	var timeUntil = a.diff(moment(), 'minutes');
-	console.log(timeUntil);
+	
 
 
   	var row = $("<tr>");
